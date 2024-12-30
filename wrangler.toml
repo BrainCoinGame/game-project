@@ -7,3 +7,7 @@ command = "npm run build"
 
 [site]
 bucket = "./dist"
+
+[env.production]
+name = "game-project"
+route = "game-project.shugarfreestudio.workers.dev/*"
